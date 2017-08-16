@@ -1,0 +1,25 @@
+{
+  "name": "ocaml-micro",
+  "version": "1.0.0",
+  "description": "ocaml micro-service with BuckleScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "bsb",
+    "watch": "bsb -w",
+    "start": "node lib/js/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ocaml",
+    "micro",
+    "bucklescript"
+  ],
+  "author": "rdwrcode@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "micro": "^8.0.2"
+  },
+  "devDependencies": {
+    "bs-platform": "^1.8.2"
+  }
+}
